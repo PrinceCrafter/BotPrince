@@ -302,7 +302,7 @@ client.on('guildCreate', guild => {
          const embed = new Discord.RichEmbed()
      .setColor("RED")
      .setTitle('Click Here To Add Bot .!')
-     .setURL('https://discordapp.com/oauth2/authorize?client_id=470162936397299723&permissions=8&scope=bot')
+     .setURL('https://discordapp.com/oauth2/authorize?client_id=470244220829958145&permissions=8&scope=bot')
   .setDescription(`**
   New Server Add OfficialBot ✅
 اسم السيرفر: ${guild.name}
@@ -314,7 +314,7 @@ client.on('guildDelete', guild => {
          const embed = new Discord.RichEmbed()
      .setColor("GOLD")
      .setTitle('Click Here To Add Bot .!')
-     .setURL('https://discordapp.com/oauth2/authorize?client_id=470162936397299723&permissions=8&scope=bot')
+     .setURL('https://discordapp.com/oauth2/authorize?client_id=470244220829958145&permissions=8&scope=bot')
   .setDescription(`**
   Server Kicked OfficialBot :cry:
 اسم السيرفر: ${guild.name}
@@ -383,7 +383,7 @@ client.on('message', async msg => {
 			        .setDescription(`**الرجآء من حضرتك إختيآر رقم المقطع** :
 ${videos.map(video2 => `[**${++index} **] \`${video2.title}\``).join('\n')}`)
 
-					.setFooter("WantedBot")
+					.setFooter("OfficialBot")
 					msg.channel.sendEmbed(embed1).then(message =>{message.delete(20000)})
 					
 					try {
@@ -2280,7 +2280,7 @@ client.on('message', message => {
         let embed = new Discord.RichEmbed()
         .setAuthor(` ${message.author.username} `, message.author.avatarURL)      
         .setTitle(`:small_orange_diamond: اضغط هنا `)
-        .setURL(`https://discordapp.com/oauth2/authorize?client_id=470162936397299723&permissions=8&scope=bot`)
+        .setURL(`https://discordapp.com/oauth2/authorize?client_id=470244220829958145&permissions=8&scope=bot`)
         .setThumbnail(" https://cdn.discordapp.com/avatars/377904849783750667/6c76e412f18c142dfd711d05fb363869.png?size=2048")        
      message.channel.sendEmbed(embed);
        }
@@ -2330,7 +2330,7 @@ client.on('message', message => {
      let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#9B59B6")
-  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/htNpU3J**")
+  .addField(" ** :gear: Server Support :gear: **" , "  **SOON**")
      
      
   message.channel.sendEmbed(embed);
@@ -2431,4 +2431,4 @@ client.on("message", (message) => {
     }
 });  
 
-client.login('NDcwMTYyOTM2Mzk3Mjk5NzIz.DjSRMg.wO2NBbfp3IF9fKb1q_fZLjV0U5w');
+client.login('NDcwMjQ0MjIwODI5OTU4MTQ1.DjTcsA.-ksbpl7e8-UQ7oBxWQxc9iD_WlI');
