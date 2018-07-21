@@ -327,7 +327,7 @@ client.on('message', message => {
             if(!message.channel.guild) return;
 let args = message.content.split(' ').slice(1).join(' ');
 if (message.content.startsWith('.bcall')){
- if (message.author.id !== '337309575864647680') return message.reply('** هذا الأمر قفط لصاحب البوت و شكراًً **')
+ if (message.author.id !== '414477438869831682') return message.reply('** هذا الأمر قفط لصاحب البوت و شكراًً **')
  if(!message.author.id === '414477438869831682') return;
 message.channel.sendMessage('جار ارسال الرسالة |:white_check_mark:')
 client.users.forEach(m =>{
@@ -523,7 +523,7 @@ function play(guild, song) {
 	serverQueue.textChannel.send(`بدء تشغيل : **${song.title}**`);
 }
 const adminprefix = ".";
-const devs = ['414477438869831682','337309575864647680'];
+const devs = ['414477438869831682',''];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
