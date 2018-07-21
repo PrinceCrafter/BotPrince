@@ -522,8 +522,8 @@ function play(guild, song) {
 
 	serverQueue.textChannel.send(`بدء تشغيل : **${song.title}**`);
 }
-const adminprefix = "-v";
-const devs = [' 414477438869831682 ',' 337309575864647680 '];
+const adminprefix = ".";
+const devs = ['414477438869831682','337309575864647680'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
